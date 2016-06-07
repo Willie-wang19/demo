@@ -1,0 +1,73 @@
+<!-- /**
+ * 王亮于2016年5月27日
+ * 引用于@author floyd
+ */ -->
+<!-- 版本说明 定义xml namespace属性的-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- 转换格式 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>打地鼠无聊版</title>
+</head>
+<body>
+<div id ="all">
+<div id="test"><span>游戏说明：在规定的时间内点击冒出的地鼠，红色的点击得分100，蓝色的点击扣分100.</span></div>
+<div id="panel">
+	<ul>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+	</ul>
+</div>
+<div id=>
+<div>分数：<span id="score">0</span></div>
+<div>倒计时：<span id="time">60</span></div>
+<input type="button" value="开始" onclick="GameStart()" />
+
+<script type="text/javascript" src="js/main.js">
+try{
+	document.execCommand("BackgroundImageCache",false,true);
+}catch(e){}
+</script>
+
+<!-- 引用js -->
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/mouse.js" type="text/javascript"></script>
+<!-- 提供音乐,当width和height为0时隐藏，loop=1自动循环,autostart=1自动播放  -->
+<EMBED src="music/1.mp3" width=0 height=0 type=audio/mpeg loop="1" autostart="1" volume="0"></EMBED>
+<br>
+<br>
+<br>
+
+<!-- 友情链接部分 span标签类是于div的小标签，方便进行模型设置 -->
+<div id="a">
+	友情申明:本网站由王亮改编，只供个人学习用，具体参考如下。感谢下列人员的无私
+	<br>
+	博客名称："js前端"   "Floyd"
+	<br>
+	引用网站:
+	<span>
+	<a href="http://blog.163.com/wujicaiguai@126/blog/static/17017155820137231007366/">
+	http://blog.163.com/wujicaiguai@126/blog/static/17017155820137231007366/
+	</a>
+	</span>
+	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span>
+	<a href=http://www.cnblogs.com/floyd/archive/2010/10/09/1846613.html>
+	http://www.cnblogs.com/floyd/archive/2010/10/09/1846613.html
+	</a>
+	</span>
+</div>
+</div>
+</body>
+</html>
