@@ -7,5 +7,6 @@
 游戏规则：打开index.html按照里面红色的游戏说明进行游戏，点击开始进行游戏。直至60S倒计时结束。   
 致谢：  
    博客名称："js前端"   "Floyd"
+   
    http://blog.163.com/wujicaiguai@126/blog/static/17017155820137231007366/
    http://www.cnblogs.com/floyd/archive/2010/10/09/1846613.html
